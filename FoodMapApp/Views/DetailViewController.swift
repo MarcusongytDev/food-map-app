@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  FoodMapApp
 //
 //  Created by Marcus Ong on 23/6/22.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class DetailViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .purple
     }
-
-
+    
 }
-
